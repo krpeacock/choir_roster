@@ -8,15 +8,15 @@ class SearchPhrase extends Component {
         <h2>Show me&nbsp;
           <select name="voicepart" value={voicepart} onChange={this.props.handleChange}>
             <option value="all">singers</option>
-            <option value="sopranos">sopranos</option>
-            <option value="altos">altos</option>
-            <option value="tenors">tenors</option>
-            <option value="bases">bases</option>
+            <option value="soprano">sopranos</option>
+            <option value="alto">altos</option>
+            <option value="tenor">tenors</option>
+            <option value="bass">bases</option>
           </select>
           &nbsp;who
           <select name="currentOrAll" value={currentOrAll} onChange={this.props.handleChange}>
             <option value="current">are currently singing</option>
-            <option vallue="all">have ever sung with the choir</option>
+            <option value="all">have ever sung with the choir</option>
           </select>
         </h2>
       </form>

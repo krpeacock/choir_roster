@@ -1,0 +1,20 @@
+.singer {
+  display: flex;
+  flex-direciton: row;
+  align-items: center;
+  border: 1px solid black;
+  padding: 1em;
+}
+
+.singer:first-of-type {
+  border-bottom-width: 0;
+}
+
+.singer:last-of-type {
+  border-bottom-width: 1px;
+}
+
+.singer > img {
+  height: 2em;
+  margin-right: 1em;
+}
